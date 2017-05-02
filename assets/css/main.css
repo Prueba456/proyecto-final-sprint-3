@@ -23,8 +23,7 @@ body{
 }
  ul{
   width: 250px;
-  border: 1px solid black;
-  color: white;
+  color: whitesmoke;
 }
 
  ul li{
@@ -39,10 +38,9 @@ a{
 }
 a:hover{
   color: deepPink;
-
 }
 
-img{
+#logo{
   width: 60px;
   left:50px;
   top:10px;
@@ -93,6 +91,7 @@ video{
 .imgTelefono img{
   width: 350px;
   top: 75px;
+  position: absolute;
 }
 .ride{
   margin-bottom: 30px;
@@ -136,4 +135,30 @@ footer{
 .listLogin, .listPartner, .listLearn, .listLogos{
   position: relative;
   display: inline-block;
+  width: 250px;
+}
+
+.listLogos img{
+  width: 150px;
+  margin: 18px;
+}
+.icons{
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  height: 40px;
+  border-bottom: 1px solid whitesmoke;
+  text-align: center;
+  padding-top: 110px;
+  margin-left: 270px;
+}
+.icons span{
+  font-size: 30px;
+  color: white;
+  margin: 20px;
+}
+.terminos{
+  margin-top: 30px;
+  color: whitesmoke;
+  margin-left: 410px;
 }
