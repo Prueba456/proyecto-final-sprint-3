@@ -1,0 +1,117 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #39230B;
+}
+ul{
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 65px;
+  padding-left: 700px;
+  border: 1px solid black;
+}
+li{
+  margin-top: 5px;
+  display: inline-block;
+  padding: 15px;
+  list-style: none;/*para quitar el simbolo de lista*/
+}
+a{
+  color: whitesmoke;
+  text-decoration: none;/*se quita la linea de subrayado*/
+  padding: 10px;
+}
+img{
+  width: 60px;
+  left:50px;
+  top:10px;
+  display: inline-block;
+  position: absolute;
+}
+video{
+  width: 100%;
+  top: -100px;
+  position: absolute;
+}
+.logoGif{
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.formulario{
+  height: 430px;
+  width: 520px;
+  position: absolute;
+  right: 0;
+  top: 70px;
+  display:inline-block;
+  background-color: white;
+}
+
+.telefono{
+  position: relative;
+  height: 450px;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(119,39,143,0.99) 0%, rgba(43,30,102,1) 100%);
+}
+.textoTelefono{
+  position: absolute;
+  left: 90px;
+  width: 50%;
+  height: 350px;
+  top: 80px;
+  color: white;
+}
+.imgTelefono{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 45%;
+  height: 350px;
+}
+.imgTelefono img{
+  width: 350px;
+  top: 75px;
+}
+.ride{
+  margin-bottom: 30px;
+}
+.happy{
+  margin-top: 30px;
+}
+.videos{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
+.texto{
+  position: absolute;
+  width: 30%;
+  height: 480px;
+  left: 0px;
+  background-color: blue;
+}
+.texto2{
+  background-color: orange;
+  position: absolute;
+  width: 30%;
+  height: 480px;
+  right: 0px;
+}
+.insertVideo{
+  position: absolute;
+  width: 70%;
+  height: 480px;
+  right: 0px;
+}
+
+iframe{
+  width:560px;
+  height:315px;
+}
