@@ -78,6 +78,11 @@ input{
   color: #51007a;
   width: 100%;
   border-bottom: 1px solid #51007a;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.ocultar{
+  display: none;
 }
 #subtitulo{
   margin-bottom: 25px;
