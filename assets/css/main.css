@@ -5,9 +5,9 @@
 }
 
 body{
-  background-color: #39230B;
+
 }
-ul{
+.barra{
   position: fixed;
   z-index: 3;
   width: 100%;
@@ -15,17 +15,33 @@ ul{
   padding-left: 700px;
   border: 1px solid black;
 }
-li{
+.barra li{
   margin-top: 5px;
   display: inline-block;
   padding: 15px;
   list-style: none;/*para quitar el simbolo de lista*/
+}
+ ul{
+  width: 250px;
+  border: 1px solid black;
+  color: white;
+}
+
+ ul li{
+  margin-top: 5px;
+  padding: 15px;
+  list-style: none;
 }
 a{
   color: whitesmoke;
   text-decoration: none;/*se quita la linea de subrayado*/
   padding: 10px;
 }
+a:hover{
+  color: deepPink;
+
+}
+
 img{
   width: 60px;
   left:50px;
@@ -95,10 +111,8 @@ video{
   width: 400px;
   height: 450px;
   left: 0px;
-  background-color: blue;
 }
 .texto2{
-  background-color: orange;
   position: absolute;
   width: 400px;
   height: 450px;
@@ -109,4 +123,17 @@ video{
   width: 950px;
   height: 450px;
   right: 0px;
+}
+footer{
+  padding-top: 70px;
+  position: relative;
+  background-color: #303144;
+  width: 100%;
+  height: 600px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.listLogin, .listPartner, .listLearn, .listLogos{
+  position: relative;
+  display: inline-block;
 }
