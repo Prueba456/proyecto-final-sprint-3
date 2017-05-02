@@ -58,13 +58,49 @@ video{
   position: relative;
 }
 .formulario{
+  padding: 45px;
   height: 430px;
-  width: 520px;
+  width: 420px;
   position: absolute;
   right: 0;
   top: 70px;
   display:inline-block;
   background-color: white;
+}
+h1{
+  color: #51007a;
+  font-size: 55px;
+}
+input{
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  color: #51007a;
+  width: 100%;
+  border-bottom: 1px solid #51007a;
+}
+#subtitulo{
+  margin-bottom: 25px;
+  color: #51007a;
+  display: inline-block;
+}
+.buttons input{
+  background-color: #ea00b6;
+  border-radius: 5px;
+  width: 130px;
+  height: 40px;
+  color: white;
+  border: 0px;
+}
+.buttons{
+  margin-top: 30px;
+}
+#sinBorde{
+  background-color:transparent;
+  width: 130px;
+  height: 40px;
+  color: #a4a4a4;
+  text-decoration: underline;
 }
 
 .telefono{
