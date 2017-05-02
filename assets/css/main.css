@@ -87,31 +87,26 @@ video{
 .videos{
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 450px;
   background-color: white;
 }
 .texto{
   position: absolute;
-  width: 30%;
-  height: 480px;
+  width: 400px;
+  height: 450px;
   left: 0px;
   background-color: blue;
 }
 .texto2{
   background-color: orange;
   position: absolute;
-  width: 30%;
-  height: 480px;
+  width: 400px;
+  height: 450px;
   right: 0px;
 }
 .insertVideo{
   position: absolute;
-  width: 70%;
-  height: 480px;
+  width: 950px;
+  height: 450px;
   right: 0px;
-}
-
-iframe{
-  width:560px;
-  height:315px;
 }
